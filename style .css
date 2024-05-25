@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(8, 8, 8);
+}
+header{
+    width: 100%;
+    height: 85px;
+}
+.main{
+    margin-left: 70px;
+}
+.logo{
+    float: left;
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    font-family: fantasy;
+    font-weight: 400;
+    padding-left: 49px;
+    padding-top: 10px;
+
+}
+span{
+    color: #ffbf00;
+}
+.navbar{
+    display: flex;
+    margin-left: 150px;
+    float: left;
+    padding-top: 20px;
+}
+.navbar li a{
+    margin-left: 75px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.navbar li a:hover{
+    color: #ffbf00;
+}
+.menu-btn{
+    float: left;
+    padding-top: 20px;
+    margin-left: 100px;
+}
+.icon{
+    color: white;
+}
+
+
+
+
+.home-text{
+    margin: 70px;
+    width: 771px;
+    float: left;
+}
+
+/* .home-image{
+    width: 330px;
+    height: 540px;
+} */
+.home-text span{
+    pad: 5px 25px;
+    background: linear-gradient(130.08deg, #383528 0%, #191919 100%);
+    box-shadow: 0px 20px 40px #00000070;
+    border: 1px solid #3b3b3b;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+}
+.home-text h1{
+    font-size: 70px;
+    font-family: sans-serif;
+    margin: 23px 0px;
+    color: white;
+}
+.home-text p{
+    font-size: 18px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    line-height: 29px;
+    font-weight: 400;
+    color: #c3c3c3;
+    margin-bottom: 30px;
+
+}
+.main-btn a{ 
+    text-decoration: none;
+    color: white;
+}
+
+.btn{
+    display: inline-block;
+    padding: 14px 34px;
+    background:#ffbf00;
+    border: 2px solid #ffbf00;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    color: white;
+    transition: all 0.4s ease-in-out;
+    text-decoration: none;
+
+}
+.btn:hover{
+    background: transparent;
+    color: #ffbf00;
+    
+}
+.btn a:hover{
+    color: #ffbf00;
+}
+   
+.two{
+    background: #141414;
+    border: 2px solid #141414;
+    color: white;
+    margin-left: 25px;
+    
+}
+.two:hover{
+    background: white;
+    color: #141414;
+}
+
+
+
+
+/* .pic{
+    width: 435px;
+    height: 542px;
+    float: left;
+} */
+
+.home-image{
+    width: 25%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.home-image img{
+    height: 90%;
+    position: absolute;
+    left: 50%;
+    bottom: 45px;
+    transform: translate(-50%);
+    transition: bottom 1s, left 1s;
+}
+.home-image .shape{
+    width: 100%;
+}
+.home-image .pic{
+    width: 70%;
+    height: ;
+}
+.home-image .shape:hover{
+    bottom: 100px;
+}
+
+.home-image .pic:hover{
+    left: 45px;
+
+}
+
+
+/* style for social icons */
+
+.social-icons p{
+    color: white;
+}
+.social-icons{
+    width: 385px;
+    height: 100px;
+    /* float: inline-end; */
+    float: inline-start;
+    margin-inline-end: 950px;
+    display: flex;
+    margin-left: 70px;
+}
+.social-icons a{
+    text-decoration: none;
+    color: white;
+}
+.social-icons ion-icon{
+    color: white;
+    size: 30px;
+    padding-left: 45px;
+
+}
+.social-icons ion-icon:hover{
+    color: #ffbf00;
+    /* transform: translateY(-10px); */
+}
+.social-icons p{
+    font-family: sans-serif;
+    font-size:17px ;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+
+@media (max-width: 1850px){
+    header{
+        padding: 15px 8%;
+        /* transition: .2s; */
+    }
+    main{
+        padding: 0.8%;
+        /* transition: .2s; */
+    }
+}
